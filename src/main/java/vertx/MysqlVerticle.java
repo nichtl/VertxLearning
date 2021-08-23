@@ -22,7 +22,7 @@ public class MysqlVerticle extends AbstractVerticle {
   // 连接配置
   MySQLConnectOptions  connectOptions  = new MySQLConnectOptions()
      .setPort(3306)
-     .setHost("159.75.23.131")
+     .setHost("")// todo yourself's  mysql address
      .setDatabase("mysql")
      .setUser("root")
      .setPassword("123456");

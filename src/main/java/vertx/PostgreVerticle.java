@@ -25,7 +25,7 @@ public class PostgreVerticle extends AbstractVerticle {
   // 连接配置
   PgConnectOptions connectOptions  = new PgConnectOptions()
     .setPort(5432)
-    .setHost("159.75.23.131")
+    .setHost("") // todo yourself's  mysql address
     .setDatabase("test_db")
     .setUser("root")
     .setPassword("123456");
